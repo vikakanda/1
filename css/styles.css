@@ -115,8 +115,15 @@
   /* #region hero */ 
     .hero {
         background-color: #2e2f42;
-        padding: 188px 0 188px
+        padding: 188px 0 188px;
+        background-image: linear-gradient(to bottom,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)), url(../images/bg.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
         }
+        
 
     .hero-title {
             font-weight: 700;
@@ -195,7 +202,7 @@
 }
 .advantages-text {
     font-weight: 400;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
@@ -233,9 +240,9 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     background: #fff;
 }
 .team-image {
-display: block,
- max-width: 100%,
- height: auto    
+display: block;
+max-width: 100%;
+height: auto    
 }
  .team-div{
     padding: 32px 16px;
@@ -282,8 +289,8 @@ display: block,
 }
 
 .portfolio-image {
-display: block,
-max-width: 100%,
+display: block;
+max-width: 100%;
 height: auto  
 }
 
